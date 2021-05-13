@@ -1,0 +1,17 @@
+
+<h1>Maagiya.com</h1>
+	<p>Its an online shopping app</p>
+
+<form>
+		<fieldset>
+			<legend>LOG IN</legend>
+			<label for ="UserName">Name:</label>
+			<input type = "text" name = "UserName" id = "UserName" required><br/>
+			<label for = "Password">PASSWORD:</label>
+			<input type = "text" name = "Password" id = "Password" pattern = "[0-9]{5}" required><br/>
+		</fieldset>
+		<input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>
+		<label for = "same">Are you registered?</label>
+			<input type = "submit" value = "Log In"/>
+                         <input type!="submit" value = "Sign up">
+		</form>
